@@ -128,7 +128,6 @@ def calc_percent_long_bills_per_island(df, threshold=40):
     
 def write_results_to_txt(avg_mass_dict, percent_long_bill_dict, filename='penguin_analysis.txt'):
     with open(filename, 'w') as f:
-        f.write("Average Body Mass by Island, Species, and Sex:\n")
         for key, val in avg_mass_dict.items():
             f.write(f"Island: {key[0]}, Species: {key[1]}, Sex: {key[2]} -> Avg Mass: {val:.2f} g\n")
         for key, val in percent_long_bill_dict.items():
