@@ -1,7 +1,6 @@
 # Brian Duffy (solo)
 # I used AI to help me write my test cases/figure out what the edge cases should be and to find some ideas for possible calulation although the actual code was written by me.
 
-
 import pandas as pd
 import unittest
 
